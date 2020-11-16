@@ -3,6 +3,7 @@ package ru.netology.domain;
 import lombok.Getter;
 
 @Getter
+
 public class Movie {
 
     private int id;

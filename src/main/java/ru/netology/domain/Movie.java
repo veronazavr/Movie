@@ -1,5 +1,8 @@
 package ru.netology.domain;
 
+import lombok.Getter;
+
+@Getter
 public class Movie {
     private int id;
     private String imageUrl;
@@ -12,4 +15,4 @@ public class Movie {
         this.name = name;
         this.genre = genre;
     }
-    }
+}

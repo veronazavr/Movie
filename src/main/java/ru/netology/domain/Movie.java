@@ -6,8 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 
+@Data
 @Getter
-
 public class Movie {
 
     private int id;
@@ -20,5 +20,8 @@ public class Movie {
         this.imageUrl = imageUrl;
         this.name = name;
         this.genre = genre;
+    }
+
+    public Movie(int id, int imageUrl, String name, int genre) {
     }
 }
